@@ -62,12 +62,14 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - There was a typo in the Object i.e `Toys.all` fixied it by `Toy.all`
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  solved this by rendering json i.e `render json: toy`
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  - fixed it by adding route ``[:destroy]` to the routes file
